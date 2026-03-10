@@ -51,9 +51,9 @@ The script is structured into two main sections:
 
 ### Example Results
 
-| Score | Result Label | Description |
-| --- | --- | --- |
-| **5/5** | **Strong** | Meets all security criteria. |
-| **3-4** | **Medium** | Lacks one or two elements (e.g., no special characters). |
-| **0-2** | **Weak** | Fails multiple criteria; requires more complexity. |
+|Score| Result | Description                  |
+| --- | ---    | ---                          |
+| 5/5 | Strong | Meets all security criteria. |
+| 3-4 | Medium | Lacks one or two elements    |
+| 0-2 | Weak   | Fails multiple criteria      |
 
