@@ -26,26 +26,51 @@ The application calculates a score from **0 to 5** by checking for the following
 
 ### Installation & Usage
 
-#### Prerequisites
+To make the **Running the App** section clear and professional, you should provide step-by-step instructions that account for different operating systems.
 
-* **Python 3.x** must be installed on your system.
-* The `tkinter` library (usually included with standard Python installations).
+Here is a refined version you can copy directly into your README:
 
-#### Running the App
+---
 
-1. Save the code as `password_strength_checker.py`.
-2. Open your terminal or command prompt.
-3. Run the following command:
+### Running the App
+
+Follow these steps to launch the Password Strength Checker on your local machine:
+
+#### 1. Save the Script
+
+Copy the provided Python code and save it as a file named `password_strength_checker.py`.
+
+#### 2. Open Your Terminal
+
+Navigate to the folder where you saved the file using your command line interface (Terminal on macOS/Linux or Command Prompt/PowerShell on Windows).
+
+#### 3. Execute the Program
+
+Run the script by typing the following command and pressing **Enter**:
+
 ```bash
-
 python password_strength_checker.py
 
-### Code Overview
+```
 
-The script is structured into two main sections:
+> **Note:** Depending on your installation, you may need to use `python3` instead of `python`.
 
-* `check_strength()`: The logic engine. It uses the `re` (regular expression) module to scan the input string for required patterns and calculates a score by subtracting errors from the maximum possible points.
-* GUI Setup: Defines the main window (`root`), entry field, and the "Check Strength" button that triggers the validation function.
+#### 4. Interaction
+
+* A window titled **"Password Strength Checker"** will appear.
+* Type a password into the entry field.
+* Click the **"Check Strength"** button to see your results and improvement tips.
+
+---
+
+### Troubleshooting
+
+* **ModuleNotFoundError:** If you receive an error regarding `tkinter`, it may not be installed by default on some Linux distributions. You can install it via:
+* *Ubuntu/Debian:* `sudo apt-get install python3-tk`
+* *Fedora:* `sudo dnf install python3-tkinter`
+
+
+* **Python Not Found:** Ensure Python is added to your system's PATH during installation.
 
 ---
 
