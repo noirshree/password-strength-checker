@@ -44,8 +44,8 @@ python password_strength_checker.py
 
 The script is structured into two main sections:
 
-* **`check_strength()`**: The logic engine. It uses the `re` (regular expression) module to scan the input string for required patterns and calculates a score by subtracting errors from the maximum possible points.
-* **GUI Setup**: Defines the main window (`root`), entry field, and the "Check Strength" button that triggers the validation function.
+* `check_strength()`: The logic engine. It uses the `re` (regular expression) module to scan the input string for required patterns and calculates a score by subtracting errors from the maximum possible points.
+* GUI Setup: Defines the main window (`root`), entry field, and the "Check Strength" button that triggers the validation function.
 
 ---
 
