@@ -59,7 +59,7 @@ python password_strength_checker.py
 
 * A window titled **"Password Strength Checker"** will appear.
 * Type a password into the entry field.
-* Click the **"Check Strength"** button to see your results and improvement tips.
+* Click the enter to see your results and improvement tips.
 
 ---
 
